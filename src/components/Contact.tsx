@@ -32,9 +32,11 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus('idle');
+//const response = await fetch('https://yourdomain.com/api/contact/inquiries', {
+//const response = await fetch('https://sew-backend-production.up.railway.app/api/contact/inquiries', {
 
     try {
-      const response = await fetch('http://localhost:5000/api/contact/inquiries', {
+      const response = await fetch('https://sew-backend-production.up.railway.app/api/contact/inquiries', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
