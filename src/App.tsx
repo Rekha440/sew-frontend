@@ -75,6 +75,8 @@ import Products from './components/Products';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Explore from './components/Explore';
+import FloatingActions from "./components/FloatingActions";
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -153,6 +155,8 @@ function App() {
       </main>
 
       <Footer />
+      <FloatingActions />
+
     </div>
   );
 }

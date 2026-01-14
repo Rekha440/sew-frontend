@@ -13,11 +13,11 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative">
-            <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="aspect-w-10 aspect-h-9 rounded-2xl  shadow-2xl">
               <img
-                src="/Machines.png"
+                src="/OwnerPic.png"
                 alt="Stone Crushing Plant"
-                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                className="w-25 object-cover transform hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-gradient-to-br from-orange-500 to-red-600 text-white p-8 rounded-2xl shadow-2xl">
